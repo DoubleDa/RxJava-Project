@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".view.ui.SimpleAct" />
+        <activity android:name=".view.ui.ComplexAct" />
     </application>
 
 </manifest>

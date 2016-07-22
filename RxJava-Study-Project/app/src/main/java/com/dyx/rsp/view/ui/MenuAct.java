@@ -48,6 +48,8 @@ public class MenuAct extends BaseActivity {
                     case 0:
                         intentTo(SimpleAct.class);
                         break;
+                    case 1:
+                        intentTo(ComplexAct.class);
                     default:
                         break;
                 }
