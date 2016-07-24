@@ -41,18 +41,19 @@ public class MenuAct extends BaseActivity {
         rvMenu.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL_LIST));
         mMenuActAdapter = new MenuActAdapter(this, list);
         rvMenu.setAdapter(mMenuActAdapter);
-        mMenuActAdapter.setmOnRvItemClickListener(new MenuActAdapter.OnRvItemClickListener() {
-            @Override
-            public void onItemClick(int pos) {
-                switch (pos) {
-                    case 0:
-                        intentTo(SimpleAct.class);
-                        break;
-                    case 1:
-                        intentTo(ComplexAct.class);
-                    default:
-                        break;
-                }
+        mMenuActAdapter.setmOnRvItemClickListener(pos -> {
+            switch (pos) {
+                case 0:
+                    intentTo(SimpleAct.class);
+                    break;
+                case 1:
+                    intentTo(ComplexAct.class);
+                    break;
+                case 2:
+                    intentTo(LambdaAct.class);
+                    break;
+                default:
+                    break;
             }
         });
     }

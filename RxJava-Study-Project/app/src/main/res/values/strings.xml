@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">RxJava-Study-Project</string>
+    <string name="show_words">I an a android developer</string>
 </resources>

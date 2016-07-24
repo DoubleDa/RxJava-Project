@@ -3,5 +3,6 @@
     <string-array name="menu">
         <item>简单使用RxAndroid</item>
         <item>复杂的RxAndroid案例</item>
+        <item>使用Lambda的RxAndroid案例</item>
     </string-array>
 </resources>
